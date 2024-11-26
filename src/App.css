@@ -1,3 +1,55 @@
+
+header{
+
+  padding: 20px 0;
+  text-align: center;
+
+}
+header a{
+  margin: 0 20px;
+}
+
+.info{
+  width: 60%;
+  margin: 0 auto;
+}
+
+textarea,input{width: 100%;
+line-height: 2;
+background-color: #f3f3f3;
+border: 1px solid #000;}
+
+input[type="submit"]{
+  background-color: black;
+  color: white;
+}
+
+*{box-sizing: border-box;}
+
+
+
+
+
+.list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li{
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+}
+
+.list li>p{
+  padding: 30px;
+  background-color: #eee;
+  display: none;
+}
+.list li.active > p{
+  display: block;
+}
+
 .App {
   text-align: center;
 }
